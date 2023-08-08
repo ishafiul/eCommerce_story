@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:sample_project/core/config/custom_icons_icons.dart';
-import 'package:sample_project/core/widgets/layout/layout.dart';
-import 'package:sample_project/features/home/presentation/widgets/categores.dart';
-import 'package:sample_project/features/home/presentation/widgets/hot_tems.dart';
-import 'package:sample_project/features/home/presentation/widgets/new_arrivals.dart';
-import 'package:sample_project/features/home/presentation/widgets/offer_items.dart';
-import 'package:sample_project/features/home/presentation/widgets/promo_banner.dart';
-import 'package:sample_project/features/home/presentation/widgets/stories_widget.dart';
+import 'package:starter_kit_flutter/core/config/custom_icons_icons.dart';
+import 'package:starter_kit_flutter/core/widgets/layout/layout.dart';
+import 'package:starter_kit_flutter/features/home/presentation/widgets/categores.dart';
+import 'package:starter_kit_flutter/features/home/presentation/widgets/hot_tems.dart';
+import 'package:starter_kit_flutter/features/home/presentation/widgets/new_arrivals.dart';
+import 'package:starter_kit_flutter/features/home/presentation/widgets/offer_items.dart';
+import 'package:starter_kit_flutter/features/home/presentation/widgets/promo_banner.dart';
+import 'package:starter_kit_flutter/features/home/presentation/widgets/stories_widget.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -23,7 +23,8 @@ class HomeScreen extends StatelessWidget {
               decoration: InputDecoration(
                   fillColor: Colors.black.withOpacity(0.05),
                   focusedBorder: const OutlineInputBorder(
-                    borderSide: BorderSide(color: Color(0xFFAAA6A7), width: 0.5),
+                    borderSide:
+                        BorderSide(color: Color(0xFFAAA6A7), width: 0.5),
                     borderRadius: BorderRadius.all(Radius.circular(8)),
                   ),
                   enabledBorder: const OutlineInputBorder(

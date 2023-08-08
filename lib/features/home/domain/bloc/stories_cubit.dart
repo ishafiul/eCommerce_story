@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
-import 'package:sample_project/features/home/data/models/stories_model.dart';
-import 'package:sample_project/features/home/data/repository/stories_repository.dart';
+import 'package:starter_kit_flutter/features/home/data/models/stories_model.dart';
+import 'package:starter_kit_flutter/features/home/data/repository/stories_repository.dart';
 
 part 'stories_state.dart';
 

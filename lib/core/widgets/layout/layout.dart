@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:sample_project/core/snackbar/cubit/snack_bar_cubit.dart';
-import 'package:sample_project/core/widgets/layout/refresh_indicator.dart';
-import 'package:sample_project/core/widgets/snackbar.dart';
+import 'package:starter_kit_flutter/core/snackbar/cubit/snack_bar_cubit.dart';
+import 'package:starter_kit_flutter/core/widgets/layout/refresh_indicator.dart';
+import 'package:starter_kit_flutter/core/widgets/snackbar.dart';
 
 class LayoutAppBar {
   final bool? centerTitle;

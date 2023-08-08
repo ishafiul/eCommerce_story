@@ -1,8 +1,8 @@
 
-import 'package:sample_project/core/config/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:injectable/injectable.dart';
-import 'package:sample_project/core/config/const.dart';
+import 'package:starter_kit_flutter/core/config/colors.dart';
+import 'package:starter_kit_flutter/core/config/const.dart';
 
 @singleton
 class AppTheme {
@@ -31,10 +31,10 @@ class AppTheme {
           borderSide: BorderSide(color: ArtistaColor.primary, width: 1),
           borderRadius: const BorderRadius.all(Radius.circular(8)),
         ),
-        enabledBorder: OutlineInputBorder(
+        enabledBorder: const OutlineInputBorder(
           // width: 0.0 produces a thin "hairline" border
           borderSide: BorderSide(color: Color(0xFFAAA6A7), width: 1),
-          borderRadius: const BorderRadius.all(Radius.circular(8)),
+          borderRadius: BorderRadius.all(Radius.circular(8)),
         ),
         hintStyle: const TextStyle(color: Colors.black26, fontSize: 14),
         fillColor: Colors.white

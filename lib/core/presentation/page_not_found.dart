@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:sample_project/core/config/const.dart';
-import 'package:sample_project/core/utils/extention.dart';
-import 'package:sample_project/core/widgets/button.dart';
+import 'package:starter_kit_flutter/core/config/const.dart';
+import 'package:starter_kit_flutter/core/utils/extention.dart';
+import 'package:starter_kit_flutter/core/widgets/button.dart';
 
 class PageNotFound extends StatelessWidget {
   const PageNotFound({super.key});

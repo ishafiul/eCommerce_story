@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
-import 'package:sample_project/core/utils/extention.dart';
-import 'package:sample_project/core/utils/funtions.dart';
+import 'package:starter_kit_flutter/core/utils/extention.dart';
+import 'package:starter_kit_flutter/core/utils/funtions.dart';
 
 class AtristaDownItemInput extends StatelessWidget {
   final List<String> items;

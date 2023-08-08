@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sample_project/core/config/colors.dart';
+import 'package:starter_kit_flutter/core/config/colors.dart';
 
 enum ArtistaCardType { primary, warning, danger, success }
 

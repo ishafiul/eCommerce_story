@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_img/flutter_img.dart';
-import 'package:sample_project/core/config/colors.dart';
-import 'package:sample_project/core/config/custom_icons_icons.dart';
-import 'package:sample_project/core/utils/extention.dart';
-import 'package:sample_project/core/widgets/horizontal_list.dart';
-import 'package:sample_project/features/home/domain/models/models.dart';
-import 'package:sample_project/features/home/presentation/widgets/item_card.dart';
+import 'package:starter_kit_flutter/core/widgets/horizontal_list.dart';
+import 'package:starter_kit_flutter/features/home/domain/models/models.dart';
+import 'package:starter_kit_flutter/features/home/presentation/widgets/item_card.dart';
 
 class OfferItemsWidget extends StatelessWidget {
   const OfferItemsWidget({super.key});

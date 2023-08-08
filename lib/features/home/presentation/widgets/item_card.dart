@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:flutter_img/flutter_img.dart';
-import 'package:sample_project/core/config/colors.dart';
-import 'package:sample_project/core/config/custom_icons_icons.dart';
-import 'package:sample_project/core/utils/extention.dart';
-import 'package:sample_project/features/home/domain/models/models.dart';
+import 'package:starter_kit_flutter/core/config/colors.dart';
+import 'package:starter_kit_flutter/core/config/custom_icons_icons.dart';
+import 'package:starter_kit_flutter/core/utils/extention.dart';
+import 'package:starter_kit_flutter/features/home/domain/models/models.dart';
 
 class ItemCardWidget extends HookWidget {
   final Item item;

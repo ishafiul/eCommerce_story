@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sample_project/core/config/const.dart';
+import 'package:starter_kit_flutter/core/config/const.dart';
 
 class HorizontalList extends StatelessWidget {
   final int itemCount;

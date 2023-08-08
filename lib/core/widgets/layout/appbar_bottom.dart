@@ -1,6 +1,6 @@
-import 'package:sample_project/core/config/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
+import 'package:starter_kit_flutter/core/config/colors.dart';
 
 class AppBarBottom extends HookWidget {
   final Widget child;

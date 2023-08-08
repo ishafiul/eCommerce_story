@@ -1,7 +1,7 @@
-import 'package:sample_project/core/widgets/snackbar.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:injectable/injectable.dart';
 import 'package:meta/meta.dart';
+import 'package:starter_kit_flutter/core/widgets/snackbar.dart';
 
 part 'snack_bar_state.dart';
 
