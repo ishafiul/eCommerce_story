@@ -38,7 +38,7 @@ sudo apt install gnustep-base-runtime
 ```
 Script
 ```shell
-appName="Joruri"
+appName="Story"
 declare -a androidAppTypes=(
     "main"
     "debug"

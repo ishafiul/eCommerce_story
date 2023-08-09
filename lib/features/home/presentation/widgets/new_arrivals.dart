@@ -14,25 +14,18 @@ class NewArrivalsWidget extends StatelessWidget {
     final List<Item> items = [
       Item(
           name: "ABC Kecap Manis (700ml)",
-          image: 'https://shinjukuhalalfood.com/wp-content/uploads/2023/07/ABC-kecap-manis-700ml.jpg',
+          image: 'https://shinjukuhalalfood.com/wp-content/uploads/2020/11/Green-Cardamom-Whole-50g.jpg',
           originalPrice: '650',
-          offerPercentage: 12,
-          offerPrice: "510",
-          isFavorite: true,
           unit: '0.7kg'),
       Item(
           name: "India Gate Basmati Rice Premium (5kg) インドゲートバスマティライス",
           image: 'https://shinjukuhalalfood.com/wp-content/uploads/2020/11/India-Gate-Basmati-Rice-Premium-5kg-2.png',
           originalPrice: '2,650',
-          offerPercentage: 15,
-          offerPrice: '2,290',
           unit: '5kg'),
       Item(
           name: "Daawat Everyday Basmati Rice Gold (5Kg) エブリデイ バスマティ ライス ゴールド",
           image: 'https://shinjukuhalalfood.com/wp-content/uploads/2021/04/Daawat-Everyday-Basmati-Rice-Gold-5Kg-1.png',
           originalPrice: '2,150 ',
-          offerPercentage: 11,
-          offerPrice: "1,698",
           unit: '5kg'),
       Item(
           name: "Sunflower Oil Premium (1Ltr)",

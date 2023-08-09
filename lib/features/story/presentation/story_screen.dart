@@ -49,6 +49,7 @@ class StoryScreen extends HookWidget {
     );
 
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Column(
         children: [
           const SizedBox(
